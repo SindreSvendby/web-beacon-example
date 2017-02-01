@@ -1,0 +1,26 @@
+{
+  "name": "web-beacon-example",
+  "version": "1.0.0",
+  "description": "a very simple example of the beacon api",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.14.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "web-beacon-example"
+  },
+  "keywords": [
+    "beacon-api",
+    "web-api",
+    "beacon-example",
+    "beacon"
+  ],
+  "author": "Sindre Øye Svendby",
+  "license": "ISC"
+}

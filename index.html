@@ -1,0 +1,11 @@
+<h3>Send beacon</h3>
+<script>
+navigator.sendBeacon('http://localhost:3000', 'data');
+</script>
+
+<p>Executed ->  navigator.sendBeacon('http://localhost:3000', 'data'); </p>
+
+<p>if the site is https, the beacon must send to https</p>
+<p>it's up to the browser to defined the size, normaly 2^16</p>
+<p>Safari (the new IE) sucks, and have still no support at time of writing</p>
+<p>Check <a href="http://caniuse.com/#feat=beacon">caniuse</a> for current support</p>
